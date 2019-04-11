@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Products from './components/products';
 
 
 
