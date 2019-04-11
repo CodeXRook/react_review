@@ -21,6 +21,7 @@ class Form extends React.Component {
 
                 <div className="col-md-4 mb-3">
                 <label for="validationCustom02"> Show Image</label>
+                <input type="text" className="form-control" id="validationCustom02" placeholder=""  required />
 
 
 
