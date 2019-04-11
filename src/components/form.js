@@ -31,6 +31,7 @@ class Form extends React.Component {
 
                     <div className="form-group">
                     <button className="btn btn-primary" type="submit">Submit form</button>
+                    </div>
 
 
                 )
