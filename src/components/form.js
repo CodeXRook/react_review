@@ -20,8 +20,9 @@ class Form extends React.Component {
                 </div>
 
                 <div className="col-md-4 mb-3">
+                <label for="validationCustom02"> Show Image</label>
 
-                
+
 
                 )
             }
