@@ -14,7 +14,7 @@ class Form extends React.Component {
     }
 handleInputChange =(e)=>{
 const input = e.target.value
-
+this.setState ({input});
 
 }
 
