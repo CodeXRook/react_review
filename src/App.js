@@ -25,7 +25,9 @@ class App extends Component {
 
     return (
      <>
-     
+     <Form/>
+
+
      <div className = 'container row mx-auto'>
      {
        products.map((e, i) => {
