@@ -1,5 +1,5 @@
 import React, { Component } from 'react'; // STEP1: IMPORT THE RIGHT REACT COMPONENT. STATELESS OR STATFUL
-import Products from './components/products.js';
+import Products from './components/products.js'; //FIND THE RIGHT COMPONENT YOU'LL NEED TO IMPORT SET PROPS TO RENDER THAT COMPONENT ONCE CALLED 
 
 class App extends Component {
      constructor(props){
