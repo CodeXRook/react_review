@@ -26,6 +26,7 @@ class Form extends React.Component {
 
                    <div className="col-md-4 mb-3">
                    <label for="validationCustom03"> Price </label>
+                   <input type="text" class="form-control" id="validationCustom03" placeholder=" " required />
 
                 )
             }
