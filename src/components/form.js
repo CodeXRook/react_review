@@ -5,6 +5,9 @@ class Form extends React.Component{
             super(props);
 
             this.state ={
-                name:''            }
+                name: '',
+                price: '',
+                 
+            }
         }
 }
