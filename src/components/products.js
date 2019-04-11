@@ -5,7 +5,8 @@ const Products = (props) => {
         <>
             <div className='col-4 text-center'>
             <img src={ props.image} alt=''/>
-            <h5>{props.className}</h5>
+            <h4>{props.name}</h4>
+            
            
             </div>
 
