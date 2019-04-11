@@ -25,9 +25,10 @@ class App extends Component {
      {
        products.map((e, i) => {
          //e IS ELEMENT SO IT WOULD EVERYTHING IN ARRAY ONCE INDEX IS e. This is a shorter way of wrtting {this.e}
-         return <Products name={e.name} image={e.image} price={e.price} />
+         return <Products name={e.name} image={e.image} price={e.price} />;
        })
      }
+     </div>
      </>
     );
   }
