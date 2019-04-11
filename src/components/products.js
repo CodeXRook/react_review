@@ -1,7 +1,12 @@
 import React from 'react';
 
 const Products = (props) => {
-    return(
-        
+    return (
+        <>
+            <div className='col-4 text-center'>
+
+            </div>
+
+        </>
     )
 }
