@@ -7,8 +7,11 @@ class Form extends React.Component{
             this.state ={
                 name: '',
                 price: '',
-                image: []
-                 
+                image: []    
             }
+        }
+
+        render(){
+            return()
         }
 }
