@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App]
+I created this project to go over react and started going over how to create a proper readme.
 
 ## Available Scripts
 
