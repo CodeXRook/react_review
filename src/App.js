@@ -20,7 +20,11 @@ class App extends Component {
 
     return (
      <>
-     <h1>what up son </h1>
+     
+     <div className = 'container row mx-auto'>
+     {
+       
+     }
      </>
     );
   }
