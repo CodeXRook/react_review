@@ -6,7 +6,7 @@ class Form extends React.Component {
 
         this.state = {
             name: 'Lv Belt',
-            price:  '',
+            price:  '$1000.00',
             image: ['']
         }
     }
