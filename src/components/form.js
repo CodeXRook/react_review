@@ -13,7 +13,7 @@ class Form extends React.Component{
 
         render(){
             return(
-
+                <form className="needs-validation" novalidate>
 
             )
         }
