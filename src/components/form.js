@@ -5,11 +5,13 @@ class Form extends React.Component {
         super(props);
 
         this.state = {
-            name: '',
-            price: '',
-            image: []
+            name: 'Lv Belt',
+            price:  '',
+            image: ['']
         }
     }
+
+
 
     render() {
         return (
