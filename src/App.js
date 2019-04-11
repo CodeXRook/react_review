@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'; // STEP1: IMPORT THE RIGHT REACT COMPONENT. STATELESS OR STATFUL
 import Products from './components/products.js';
-
-
 
 class App extends Component {
      constructor(props){
@@ -17,6 +15,9 @@ class App extends Component {
 
 
   render() {
+
+    const { products } = this.state;
+
     return (
      <>
      <h1>what up son </h1>
