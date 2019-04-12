@@ -20,11 +20,14 @@ class Form extends React.Component {
 
 
     handleSubmit = (e) =>{
+const { input, name, price, image} = this.state;
 
     }
 
 
     render() {
+        const { name}
+        
         return (
             <>
                 <form className="form">
