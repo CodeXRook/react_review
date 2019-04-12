@@ -11,11 +11,11 @@ class Form extends React.Component {
             image: ['https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_AS/louis-vuitton--M6065S_PM2_Front%20view.jpg?wid=382&hei=100']
         }
     }
-    handleInputChange = (e) => {
-        const input = e.target.value
-        this.setState({ input });
-
-    }
+   
+  handleInputChange = (e) => {
+    const input = parseInt(e.target.value);
+    this.setState({ input });
+  }
 
 
 
@@ -23,7 +23,7 @@ class Form extends React.Component {
 
     }
 
-    
+
     render() {
         return (
             <>
