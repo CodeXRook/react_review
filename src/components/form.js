@@ -19,16 +19,22 @@ class Form extends React.Component {
 
 
 
+    handleSubmit = (e) =>{
+
+    }
+
+    
     render() {
         return (
             <>
                 <form className="form">
 
                     <label > Product Name </label>
-                    <input type="text" onChange={this.handleInputChange} placeholder=" " name="{this.state.value.input} " required />
+                    <input type="text" onChange={this.handleInputChange} placeholder=" " value={this.state.value.name} required />
 
-                     <label > Show Image</label>
-                    <input type="text" placeholder=" " value="" required  /> 
+                     <label> Show Image</label>
+                    <input type="text" onChange={this.handleInputChange} placeholder=" " value={this.state.value.image} required  /> 
+
 
                     <label > Price </label>
                     <input type="text" placeholder=" " value="" required />
