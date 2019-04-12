@@ -13,7 +13,7 @@ class Form extends React.Component {
     }
    
   handleInputChange = (e) => {
-    this.setState ({e.target.value});
+    this.setState ({ input: e.target.value});
 
   }
 
@@ -35,16 +35,18 @@ const { input, name, price, image} = this.state;
             <>
                 <form className="form">
 
-                    <label > Product Name </label>
-                    <input type="text" onChange={this.handleInputChange} placeholder=" " value={this.state.value.name} required />
+                    <label> Product Name </label>
+                     <input type="text" onChange={this.handleInputChange} value={this.state.value.input}/>
+     
+                    
 
                      <label> Show Image</label>
-                    <input type="text" onChange={this.handleInputChange} placeholder=" " value={this.state.value.image} required  /> 
+                    <input type="text" onChange={this.handleInputChange} value={this.state.value.input} /> 
 
                     <label > Price </label>
-                    <input type="text" placeholder=" " value={this.state.value.image} required />
+                    <input type="text" placeholder=" " value={this.state.value.input} required />
 
-                 <button onClick={this.handleSubmit}> Submit form</button>
+                 <button onClick={this.handleSubmit}> Submit form </button>
                 </form>
             </>
         )
