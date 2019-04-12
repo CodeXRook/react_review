@@ -26,9 +26,9 @@ const { input, name, price, image} = this.state;
 
 
     render() {
-        const { name}
+        const { name} = this.state;
         const {image}
-        
+        const { price}
         return (
             <>
                 <form className="form">
