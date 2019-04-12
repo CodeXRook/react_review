@@ -27,6 +27,7 @@ const { input, name, price, image} = this.state;
 
     render() {
         const { name}
+        const {image}
         
         return (
             <>
