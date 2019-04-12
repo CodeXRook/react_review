@@ -6,7 +6,6 @@ class Form extends React.Component {
 
         this.state = {
             input: '',
-            value: '',
             name: 'Lv Belt',
             price:  '$1000.00',
             image: ['https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_AS/louis-vuitton--M6065S_PM2_Front%20view.jpg?wid=382&hei=100']
@@ -19,13 +18,15 @@ this.setState ({input});
 }
 
 
+
     render() {
         return (
-            
+            <>
+
             <form className="needs-validation" novalidate>
                 <div className="col-md-4 mb-3">
                 <label for="validationCustom01"> Enter Product </label>
-                <input type="text" className="form-control" id="validationCustom01" placeholder=" " value="" required />
+                <input type="text"  onChange={this.handleInputChange} className="form-control" id="validationCustom01" placeholder=" "  name="{props.name} " required />
                 </div>
 
                 <div className="col-md-4 mb-3">
@@ -42,7 +43,7 @@ this.setState ({input});
                     <button className="btn btn-primary" type="submit">Submit form</button>
                     </div>
                     </form>
-
+</>
                 )
             }
     }
