@@ -50,8 +50,10 @@ handleChange = e => {
   const { name, value } = e.target;
   let formErrors = this.state.formErrors;
 
+  //SWITCH IS A GIANT ELSE IF BUT NICER SYNTAX
   switch (name) {
     case 'firstName':
+      formErrors.firstname
   }
   
   //SWITCH IS A GIANT IF ELSE BUT EASIER
