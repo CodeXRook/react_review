@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './App.css';
 
-
+const formValid =
 class App  extends Component {
   constructor(props) {
     super(props);
@@ -23,16 +23,16 @@ class App  extends Component {
 handleSubmit = e => {
   e.preventDefault();
 
-  if (formValid(this.state.formErrors)){
+  if (formValid(this.state.formErrors)) {
     console.log('
     --SUBMITTING --
     First Name: ${this.state.firstName}
     Last Name: ${this,state.lastName}
-    email: ${this.state.email}
-    password: ${this.state.password}
+    Email: ${this.state.email}
+    Password: ${this.state.password}
     ')
   } else{
-    console.error()
+    console.error('FORM INVALID - DISPLAY ERROE MESSAGE');
   }
 };
 
