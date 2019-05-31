@@ -5,9 +5,12 @@ import './App.css';
 const formValid = formErrors =>{
   let valid = true;
 
-  Object.values(formErrors).forEach( val => val.length > 0 && (valid =false));
+  Object.values(formErrors).forEach( val => { 
+    val.length > 0 && (valid = false);
+  });
   return valid;
-}
+};
+
 class App  extends Component {
   constructor(props) {
     super(props);
@@ -25,9 +28,9 @@ class App  extends Component {
       }
    };
   }
+
 handleSubmit = e => {
   e.preventDefault();
-
   if (formValid(this.state.formErrors)) {
     console.log('
     --SUBMITTING --
