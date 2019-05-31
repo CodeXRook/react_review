@@ -46,8 +46,10 @@ handleSubmit = e => {
 
 handleChange = e => {
   e.preventDefault();
-  const { name } = e.target;
+  const { name, value } = e.target;
+  let formErrors = this.state.formErrors;
   
+
 }
 
   render() {
