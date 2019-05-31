@@ -23,7 +23,17 @@ class App  extends Component {
 handleSubmit = e => {
   e.preventDefault();
 
-  if (formValid(this.state.formErrors)){}
+  if (formValid(this.state.formErrors)){
+    console.log('
+    --SUBMITTING --
+    First Name: ${this.state.firstName}
+    Last Name: ${this,state.lastName}
+    email: ${this.state.email}
+    password: ${this.state.password}
+    ')
+  } else{
+    console.error()
+  }
 };
 
   render() {
