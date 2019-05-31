@@ -33,12 +33,11 @@ class App extends Component {
   render() {
     return(
 <div className="wrapper"> 
-  
-</div>
-      //Checking is user is logged in 
-      //If this.state.user is true? Then great! we render home, push him to home. other wise log in, trya again
-     
-    )
+  <div className="form-wrapper">
+      <h1>Create Account</h1>
+  </div>
+    </div>
+    );
   }
 }
 
