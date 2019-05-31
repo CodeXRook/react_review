@@ -1,38 +1,35 @@
 import React, { Component } from 'react';
-
+import fire from './config/Fire';
+ 
 import './App.css';
 
 
 class App extends Component {
+  constructor(){
+    super(props);
+    this.state = {
+      user:{}
+    }
+  }
 
   authListener() {
     firebase.auth().onAuthStateChanged((user) => {
-      console.log(user);
+      // console.log(user);
       if(user){
         this.setState({user});
-        localStorage.setItem('user', user.uid);
+        // localStorage.setItem('user', user.uid);
       }else{
         this.setState({ user: null });
-        localStorage.removeItem('user');
+        // localStorage.removeItem('user');
       }
     });
   }
-
-      this. state = {
-     
-       }
-     }
-
-
   render() {
+    return(
+      <div className="App">
 
-    const { products } = this.state;
 
-    return (
-     <>
-     <UserProfile />
-
-     </>
+      </div>
     );
   }
 }
