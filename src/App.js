@@ -54,6 +54,11 @@ class App extends Component {
               type="text"
               className="" 
               placeholder="Last Name" 
+              type="text" 
+              name="lastName"
+              noValidate
+              onChange={this.handleChange} />
+            </div>
 
            
 
