@@ -51,5 +51,8 @@ input::placeholder {
   font-size: 1.2em;
   font-weight: lighter;
   color: #999;
+}
 
+input.error{
+  border: 1px solid red;
 }
