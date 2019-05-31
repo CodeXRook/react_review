@@ -76,6 +76,9 @@ class App extends Component {
             <label htmlfor="password">Password</label>
              <input 
               type="text"
+              className="" 
+              placeholder="password" 
+
 
  
            
