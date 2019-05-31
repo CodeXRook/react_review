@@ -44,6 +44,10 @@ handleSubmit = e => {
   }
 };
 
+handleChange = e => {
+  e.preventDefault();
+}
+
   render() {
     return (
       <div className="wrapper">
