@@ -96,3 +96,9 @@ input.error{
   flex-direction: column;
   align-items: center;
 }
+
+.createAccount  button:hover {
+background-color:#519e8a;
+color: #fff;
+
+}
