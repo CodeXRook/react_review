@@ -48,6 +48,8 @@ class App extends Component {
               onChange={this.handleChange} />
             </div>
             <div className="lastName">
+            <label htmlfor="lastName ">Last Name</label>
+
            
 
           </form>
