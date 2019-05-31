@@ -12,6 +12,11 @@ class App extends Component {
     }
   }
 
+//COMPONENT DID MOUNT
+componentDidMount(){
+  this.authListener();
+}
+
   authListener() {
     firebase.auth().onAuthStateChanged((user) => {
       // console.log(user);
@@ -24,11 +29,16 @@ class App extends Component {
       }
     });
   }
+
+
   render() {
     return(
+
+      //Checking is user is logged in 
       <div className="App">
-
-
+        
+        {this.state.user ? (< Home /> : ) }
+        
       </div>
     );
   }
