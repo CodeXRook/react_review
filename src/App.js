@@ -9,6 +9,9 @@ class App extends Component {
     this.state = {
       firstName: null,
       lastName: null,
+      email: null,
+      password: null,
+      
     }
   }
 
