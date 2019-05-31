@@ -73,6 +73,7 @@ class App extends Component {
             </div>
 
             <div className="password">
+            <label htmlfor="password">Password</label>
 
  
            
