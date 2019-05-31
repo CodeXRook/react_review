@@ -83,6 +83,8 @@ handleChange = e => {
         ? "minimum 3 characters required"
          : " ";
        break;
+       default:
+       break;
     
   }
 };
