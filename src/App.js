@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-
 import './App.css';
-import { createServer } from 'https';
+
+// regex expressions
+const emailRegex = RegExp(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)
 
 const formValid = formErrors =>{
   let valid = true;
@@ -79,8 +80,8 @@ handleChange = e => {
      case 'password':
       //Turnerary operator 
         formErrors.password= 
-        value.length < 3 && value.length  > 0 
-        ? "minimum 3 characters required"
+        value.length < 6 && value.length  > 0 
+        ? "minimum 6 characters required"
          : " ";
        break;
        default:
