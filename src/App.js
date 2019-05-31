@@ -60,6 +60,7 @@ class App extends Component {
               onChange={this.handleChange} />
             </div>
 
+            <div className="Email">
            
 
           </form>
