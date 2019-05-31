@@ -68,6 +68,9 @@ class App extends Component {
               placeholder="Email"
               type="text" 
               name="email"
+              noValidate
+              onChange={this.handleChange} />
+            </div>
  
            
 
