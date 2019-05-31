@@ -37,7 +37,8 @@ class App extends Component {
       <h1>Create Account</h1>
       <form onSubmit={this.handleSubmit} novalidation>
         <div className="firstName">
-          <label htmlfor=""></label>
+          <label htmlfor="firstName ">First Name</label>
+          <input type="text" className="" noValidate/>
         </div>
       </form>
   </div>
