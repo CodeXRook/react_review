@@ -62,3 +62,7 @@ input.error{
   font-size: 0.75em;
   display: relative;
 }
+
+.firstName {
+  margin-left: 1%;
+}
