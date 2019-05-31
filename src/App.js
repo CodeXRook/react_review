@@ -11,7 +11,12 @@ class App extends Component {
       lastName: null,
       email: null,
       password: null,
-      
+      formErrors:{
+        firstName: "",
+        lastName: "",
+        email: "",
+        password:
+      }
     }
   }
 
