@@ -3,23 +3,27 @@ import React, { Component } from 'react';
 import './App.css';
 
 
-class App extends Component {
+class App  extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
       firstName: null,
       lastName: null,
       email: null,
       password: null,
-      formErrors:{
-        firstName: "",
-        lastName: "",
-        email: "",
-        password:
-      }
-    }
+           formErrors: {
+           firstName: "",
+           lastName: "",
+           email: "",
+           password: ""
+        }
+      }:
   }
 
+handleSubmit = e => {
+  e.preventDefault();
+}
   render() {
     return (
       <div className="wrapper">
