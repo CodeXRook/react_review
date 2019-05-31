@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import './App.css';
+import { createServer } from 'https';
 
 const formValid = formErrors =>{
   let valid = true;
@@ -51,17 +52,40 @@ handleChange = e => {
   
   //SWITCH IS A GIANT IF ELSE BUT EASIER
   switch (name) {
-    case 'firstName';
+    case 'firstName':
     //Turnerary operator 
       formErrors.firstName = 
       value.length < 3 && value.length  > 0 
       ? "minimum 3 characters required"
        : " ";
+     break;
+
+    case 'firstName':
+      //Turnerary operator 
+        formErrors.firstName = 
+        value.length < 3 && value.length  > 0 
+        ? "minimum 3 characters required"
+         : " ";
        break;
+ 
+      case 'firstName':
+    //Turnerary operator 
+      formErrors.firstName = 
+      value.length < 3 && value.length  > 0 
+      ? "minimum 3 characters required"
+       : " ";
+     break;
+
+     case 'firstName':
+      //Turnerary operator 
+        formErrors.firstName = 
+        value.length < 3 && value.length  > 0 
+        ? "minimum 3 characters required"
+         : " ";
+       break;
+    
   }
-
-
-}
+};
 
   render() {
     return (
