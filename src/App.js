@@ -70,7 +70,7 @@ handleChange = e => {
  
       case 'email':
     //Turnerary operator 
-      formErrors.firstName = 
+      formErrors.email = 
       value.length < 3 && value.length  > 0 
       ? "minimum 3 characters required"
        : " ";
@@ -78,7 +78,7 @@ handleChange = e => {
 
      case 'password':
       //Turnerary operator 
-        formErrors.firstName = 
+        formErrors.password= 
         value.length < 3 && value.length  > 0 
         ? "minimum 3 characters required"
          : " ";
