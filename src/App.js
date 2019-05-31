@@ -50,12 +50,6 @@ handleChange = e => {
   const { name, value } = e.target;
   let formErrors = this.state.formErrors;
 
-  //SWITCH IS A GIANT ELSE IF BUT NICER SYNTAX
-  switch (name) {
-    case 'firstName':
-      formErrors.firstname
-  }
-  
   //SWITCH IS A GIANT IF ELSE BUT EASIER
   switch (name) {
     case 'firstName':
@@ -66,15 +60,15 @@ handleChange = e => {
        : " ";
      break;
 
-    case 'firstName':
+    case 'lastName':
       //Turnerary operator 
-        formErrors.firstName = 
+        formErrors.lastName = 
         value.length < 3 && value.length  > 0 
         ? "minimum 3 characters required"
          : " ";
        break;
  
-      case 'firstName':
+      case 'email':
     //Turnerary operator 
       formErrors.firstName = 
       value.length < 3 && value.length  > 0 
@@ -82,7 +76,7 @@ handleChange = e => {
        : " ";
      break;
 
-     case 'firstName':
+     case 'password':
       //Turnerary operator 
         formErrors.firstName = 
         value.length < 3 && value.length  > 0 
