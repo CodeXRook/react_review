@@ -97,7 +97,7 @@ input.error{
   align-items: center;
 }
 
-.createAccount  button:hover {
+.createAccount  button {
 background-color:#519e8a;
 color: #fff;
 border: 2px solid #fff;
@@ -108,4 +108,15 @@ font-size: 1em;
 font-weight: lighter;
 letter-spacing: 1px;
 margin-bottom: 0.25em;
+}
+
+.createAccount button:hover {
+  color: #519e8a;
+  background-color: #fff;
+  border: 2px solid #519e8a;
+}
+
+.createAccount small {
+  color: #999;
+  font-weight: lighter;
 }
