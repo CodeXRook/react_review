@@ -4,7 +4,7 @@ import './App.css';
 // regex expressions
 const emailRegex = RegExp(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)
 
-const formValid = formErrors =>{
+const formValid = formErrors => {
   let valid = true;
 
   Object.values(formErrors).forEach( val => { 
