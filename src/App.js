@@ -38,7 +38,7 @@ class App extends Component {
       <form onSubmit={this.handleSubmit} novalidation>
         <div className="firstName">
           <label htmlfor="firstName ">First Name</label>
-          <input type="text" className="" noValidate/>
+          <input type="text" className="" placeholder="First Name" type="text" name="firstName" noValidate/>
         </div>
       </form>
   </div>
