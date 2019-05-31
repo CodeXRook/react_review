@@ -32,13 +32,13 @@ class App  extends Component {
 handleSubmit = e => {
   e.preventDefault();
   if (formValid(this.state.formErrors)) {
-    console.log('
+    console.log(`
     --SUBMITTING --
     First Name: ${this.state.firstName}
-    Last Name: ${this,state.lastName}
+    Last Name: ${this.state.lastName}
     Email: ${this.state.email}
     Password: ${this.state.password}
-    ')
+    `)
   } else{
     console.error('FORM INVALID - DISPLAY ERROE MESSAGE');
   }
