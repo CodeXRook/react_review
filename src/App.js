@@ -11,8 +11,11 @@ class App extends Component {
       if(user){
         this.setState({user});
         localStorage.setItem('user', user.uid);
-      }else{}
-    })
+      }else{
+        this.setState({ user: null });
+        localStorage.removeItem('user');
+      }
+    });
   }
 
       this. state = {
