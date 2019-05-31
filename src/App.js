@@ -78,6 +78,8 @@ class App extends Component {
               type="text"
               className="" 
               placeholder="password" 
+              type="text" 
+              name="password"
 
 
  
