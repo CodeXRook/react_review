@@ -35,6 +35,7 @@ class App extends Component {
 <div className="wrapper"> 
   <div className="form-wrapper">
       <h1>Create Account</h1>
+      <form onSubmit={this.handleSubmit} novalidation></form>
   </div>
     </div>
     );
