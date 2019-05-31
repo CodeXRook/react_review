@@ -47,8 +47,11 @@ class App extends Component {
               noValidate
               onChange={this.handleChange} />
             </div>
+
             <div className="lastName">
             <label htmlfor="lastName ">Last Name</label>
+            <input 
+              type="text"
 
            
 
