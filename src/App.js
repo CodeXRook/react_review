@@ -64,6 +64,8 @@ class App extends Component {
             <label htmlfor="email "> Email </label>
             <input 
               type="text"
+              className="" 
+              placeholder="Email" 
            
 
           </form>
