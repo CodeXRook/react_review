@@ -53,6 +53,8 @@ handleChange = e => {
 
   console.log("Name:  ", name);
   console.log("value:",  value);
+
+
   //SWITCH IS A GIANT IF ELSE BUT EASIER
   switch (name) {
     case 'firstName':
@@ -99,7 +101,7 @@ handleChange = e => {
           <h1>Create Account</h1>
           <form onSubmit={this.handleSubmit} novalidation>
             <div className="firstName">
-              <label htmlfor="firstName ">First Name</label>
+              <label htmlFor="firstName ">First Name</label>
               <input 
               type="text"
               className="" 
@@ -111,7 +113,7 @@ handleChange = e => {
             </div>
 
             <div className="lastName">
-            <label htmlfor="lastName ">Last Name</label>
+            <label htmlFor="lastName ">Last Name</label>
             <input 
               type="text"
               className="" 
@@ -123,7 +125,7 @@ handleChange = e => {
             </div>
 
             <div className="email">
-            <label htmlfor="email "> Email </label>
+            <label htmlFor="email "> Email </label>
             <input 
               type="text"
               className="" 
@@ -135,7 +137,7 @@ handleChange = e => {
             </div>
 
             <div className="password">
-            <label htmlfor="password">Password</label>
+            <label htmlFor="password">Password</label>
              <input 
               type="text"
               className="" 
