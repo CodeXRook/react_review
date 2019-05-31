@@ -46,3 +46,8 @@ input {
   outline: none;
   border: 1px solid #cfcfcf;
 }
+
+input::placeholder {
+  font-size: 1.2em;
+  
+}
