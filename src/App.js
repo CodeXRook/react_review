@@ -80,6 +80,10 @@ class App extends Component {
               placeholder="password" 
               type="text" 
               name="password"
+              noValidate
+              onChange={this.handleChange} />
+            </div>
+
 
 
  
