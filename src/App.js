@@ -1,48 +1,58 @@
 import React, { Component } from 'react';
- 
+
 import './App.css';
 
 
 class App extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
-      user:{}
+      user: {}
     }
   }
 
-// //COMPONENT DID MOUNT
-// componentDidMount(){
-//   this.authListener();
-// }
+  // //COMPONENT DID MOUNT
+  // componentDidMount(){
+  //   this.authListener();
+  // }
 
-//   authListener() {
-//     firebase.auth().onAuthStateChanged((user) => {
-//       // console.log(user);
-//       if(user){
-//         this.setState({user});
-//         // localStorage.setItem('user', user.uid);
-//       }else{
-//         this.setState({ user: null });
-//         // localStorage.removeItem('user');
-//       }
-//     });
-//   }
+  //   authListener() {
+  //     firebase.auth().onAuthStateChanged((user) => {
+  //       // console.log(user);
+  //       if(user){
+  //         this.setState({user});
+  //         // localStorage.setItem('user', user.uid);
+  //       }else{
+  //         this.setState({ user: null });
+  //         // localStorage.removeItem('user');
+  //       }
+  //     });
+  //   }
 
 
   render() {
-    return(
-<div className="wrapper"> 
-  <div className="form-wrapper">
-      <h1>Create Account</h1>
-      <form onSubmit={this.handleSubmit} novalidation>
-        <div className="firstName">
-          <label htmlfor="firstName ">First Name</label>
-          <input type="text" className="" placeholder="First Name" type="text" name="firstName" noValidate/>
+    return (
+      <div className="wrapper">
+        <div className="form-wrapper">
+          <h1>Create Account</h1>
+          <form onSubmit={this.handleSubmit} novalidation>
+            <div className="firstName">
+              <label htmlfor="firstName ">First Name</label>
+              <input 
+              type="text"
+              className="" 
+              placeholder="First Name" 
+              type="text" 
+              name="firstName"
+              noValidate
+              onChange={this.handleChange} />
+            </div>
+
+           
+
+          </form>
         </div>
-      </form>
-  </div>
-    </div>
+      </div>
     );
   }
 }
