@@ -17,13 +17,15 @@ class App  extends Component {
            lastName: "",
            email: "",
            password: ""
-        }
-      }:
+      }
+   };
   }
-
 handleSubmit = e => {
   e.preventDefault();
-}
+
+  if (formValid(this.state.formErrors)){}
+};
+
   render() {
     return (
       <div className="wrapper">
@@ -87,5 +89,4 @@ handleSubmit = e => {
     );
   }
 }
-
 export default App;
