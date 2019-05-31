@@ -65,7 +65,10 @@ class App extends Component {
             <input 
               type="text"
               className="" 
-              placeholder="Email" 
+              placeholder="Email"
+              type="text" 
+              name="email"
+ 
            
 
           </form>
