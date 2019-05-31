@@ -79,3 +79,8 @@ input.error{
   flex-direction: column;
   margin-bottom: 15px;
 }
+
+.firstName,
+.lastName{
+  width: 49%;
+}
