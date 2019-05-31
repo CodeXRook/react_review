@@ -47,7 +47,7 @@ class App extends Component {
               type="text"
               className="" 
               placeholder="email"
-              type="text" 
+              type="email" 
               name="email"
               noValidate
               onChange={this.handleChange} />
@@ -58,15 +58,15 @@ class App extends Component {
              <input 
               type="text"
               className="" 
-              placeholder="password" 
-              type="text" 
+              placeholder="Password" 
+              type="password" 
               name="password"
               noValidate
               onChange={this.handleChange} />
             </div>
             <div className="createAccount">
               <button type="submit"> Create Account </button>
-              <small>Already Have an Account?</small>
+              <small>Already Have an Account? </small>
             </div>
           </form>
         </div>
