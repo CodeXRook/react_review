@@ -38,7 +38,7 @@ componentDidMount(){
       //If this.state.user is true? Then great! we render home, push him to home. other wise log in, trya again
       <div className="App">
         
-        {this.state.user ? (< Home /> : ) }
+        {this.state.user ? (< Home />) : (<Login/>)} 
 
       </div>
     );
