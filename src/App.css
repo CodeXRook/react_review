@@ -39,3 +39,9 @@ label{
   color: #222;
   font-weight: lighter;
 }
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+
+}
