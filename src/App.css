@@ -66,3 +66,14 @@ input.error{
 .firstName {
   margin-left: 1%;
 }
+
+.lastName{
+  margin-left: 1%;
+}
+
+.firstName,
+.lastName,
+.email,
+.password{
+  display: flex;
+}
