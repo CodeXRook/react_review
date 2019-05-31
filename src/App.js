@@ -71,6 +71,9 @@ class App extends Component {
               noValidate
               onChange={this.handleChange} />
             </div>
+
+            <div className="password">
+
  
            
 
