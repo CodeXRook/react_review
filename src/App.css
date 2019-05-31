@@ -84,3 +84,13 @@ input.error{
 .lastName{
   width: 49%;
 }
+
+.email,
+.password{
+  width: 100%;
+}
+
+.createAccount {
+  width: 100%;
+  display: flex;
+}

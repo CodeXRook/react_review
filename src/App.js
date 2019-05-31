@@ -10,7 +10,7 @@ class App extends Component {
       user: {}
     }
   }
-  
+
   render() {
     return (
       <div className="wrapper">
@@ -41,12 +41,12 @@ class App extends Component {
               onChange={this.handleChange} />
             </div>
 
-            <div className="Email">
+            <div className="email">
             <label htmlfor="email "> Email </label>
             <input 
               type="text"
               className="" 
-              placeholder="Email"
+              placeholder="email"
               type="text" 
               name="email"
               noValidate
