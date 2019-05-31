@@ -52,7 +52,12 @@ handleChange = e => {
   //SWITCH IS A GIANT IF ELSE BUT EASIER
   switch (name) {
     case 'firstName';
-    
+    //Turnerary operator 
+      formErrors.firstName = 
+      value.length < 3 && value.length  > 0 
+      ? "minimum 3 characters required"
+       : " ";
+       break;
   }
 
 
