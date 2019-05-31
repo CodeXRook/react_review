@@ -51,6 +51,8 @@ handleChange = e => {
   const { name, value } = e.target;
   let formErrors = this.state.formErrors;
 
+  console.log("Name:  ", name);
+  console.log("value:",  value);
   //SWITCH IS A GIANT IF ELSE BUT EASIER
   switch (name) {
     case 'firstName':
@@ -72,9 +74,9 @@ handleChange = e => {
       case 'email':
     //Turnerary operator 
       formErrors.email = 
-      value.length < 3 && value.length  > 0 
-      ? "minimum 3 characters required"
-       : " ";
+     emailRegex.test (value)  && value.length  > 0 
+      ? ""
+       : "invalid email type ";
      break;
 
      case 'password':
