@@ -52,6 +52,8 @@ class App extends Component {
             <label htmlfor="lastName ">Last Name</label>
             <input 
               type="text"
+              className="" 
+              placeholder="Last Name" 
 
            
 
