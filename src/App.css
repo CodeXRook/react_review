@@ -100,5 +100,9 @@ input.error{
 .createAccount  button:hover {
 background-color:#519e8a;
 color: #fff;
+border: 2px solid #fff;
+width: 100%;
+margin-top: 1em;
+padding:  8px 0px;
 
 }
