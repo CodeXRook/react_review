@@ -65,7 +65,7 @@ class App extends Component {
               onChange={this.handleChange} />
             </div>
             <div className="createAccount">
-              <button>  </button>
+              <button type="submit">  </button>
             </div>
           </form>
         </div>
