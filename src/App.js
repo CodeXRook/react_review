@@ -49,6 +49,12 @@ handleChange = e => {
   const { name, value } = e.target;
   let formErrors = this.state.formErrors;
   
+  //SWITCH IS A GIANT IF ELSE BUT EASIER
+  switch (name) {
+    case 'firstName';
+    
+  }
+
 
 }
 
