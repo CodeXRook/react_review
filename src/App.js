@@ -46,6 +46,8 @@ handleSubmit = e => {
 
 handleChange = e => {
   e.preventDefault();
+  const { name } = e.target;
+  
 }
 
   render() {
