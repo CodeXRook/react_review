@@ -10,26 +10,7 @@ class App extends Component {
       user: {}
     }
   }
-
-  // //COMPONENT DID MOUNT
-  // componentDidMount(){
-  //   this.authListener();
-  // }
-
-  //   authListener() {
-  //     firebase.auth().onAuthStateChanged((user) => {
-  //       // console.log(user);
-  //       if(user){
-  //         this.setState({user});
-  //         // localStorage.setItem('user', user.uid);
-  //       }else{
-  //         this.setState({ user: null });
-  //         // localStorage.removeItem('user');
-  //       }
-  //     });
-  //   }
-
-
+  
   render() {
     return (
       <div className="wrapper">
@@ -83,12 +64,6 @@ class App extends Component {
               noValidate
               onChange={this.handleChange} />
             </div>
-
-
-
- 
-           
-
           </form>
         </div>
       </div>
