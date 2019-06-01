@@ -38,6 +38,7 @@ class App  extends Component {
    };
   }
 
+  //THESE ARE THE VALUES EXPECTED TO BE FILLED OUT ON HANDLE SUBMIT
 handleSubmit = e => {
   e.preventDefault();
   if (formValid(this.state.formErrors)) {
