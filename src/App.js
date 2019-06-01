@@ -106,7 +106,7 @@ handleChange = e => {
       <div className="wrapper">
         <div className="form-wrapper">
           <h1>Create Account</h1>
-          <form onSubmit={this.handleSubmit} novalidation>
+          <form onSubmit={this.handleSubmit} noValidate>
             <div className="firstName">
               <label htmlFor="firstName ">First Name</label>
               <input 
